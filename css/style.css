@@ -1,0 +1,26 @@
+body {
+	text-align:center;
+}
+
+table{
+	border-collapse: collapse;
+	width:100%;
+}
+tr, th {
+	display:inline;
+}
+
+
+td, th {
+	float:left;
+	border:1px solid #ddd;
+	text-align:left;
+	padding:8px;
+	width:33%;
+
+
+}
+.blue:nth-child(even) {
+	background:#ddd;
+
+}
