@@ -45,12 +45,14 @@ function addInfo() {
 
   console.log(input1, input2, input3);
 
-  if(input1 == '' || input2 == '' || input3 == '') {
-    text += 'Please field in the blanks!';
+  if(input1 == '' || input2 == '' || input3 == '' || input3 < 1 || input3 > 500) {
+
+    alert('Please field in the blanks!');
   }else {
 
     text+= '<td>' + input1 + '</td>' + ' ' + '<td>' + input2 + '</td>' + ' ' + '<td>' + input3 + '</td>';
   }
+
     tr.className = 'blue';
 
   tr.innerHTML = text;
