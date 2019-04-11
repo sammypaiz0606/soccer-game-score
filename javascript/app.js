@@ -47,7 +47,7 @@ function addInfo() {
 
   if(input1 == '' || input2 == '' || input3 == '' || input3 < 1 || input3 > 500) {
 
-    alert('Please field in the blanks!');
+    alert('Please field in your Name, Team & Ticket Number!');
   }else {
 
     text+= '<td>' + input1 + '</td>' + ' ' + '<td>' + input2 + '</td>' + ' ' + '<td>' + input3 + '</td>';
